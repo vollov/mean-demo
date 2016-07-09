@@ -1,0 +1,65 @@
+{
+	"name": "mean-demo",
+	"description": "demo app run restful with mongodb",
+	"version": "0.1.0",
+	"homepage": "https://github.com/vollov/nosql-rest-node-server",
+	"author": 
+	{
+		"name": "dustin zhang",
+		"email": "dike.zhang@gmail.com",
+		"url": "vollov.ca"
+	},
+
+	"repository": 
+	{
+		"type": "git",
+		"url": "https://github.com/vollov/nosql-rest-node-server"
+	},
+
+	"bugs": 
+	{
+		"url": "https://github.com/vollov/nosql-rest-node-server/issues"
+	},
+
+	"licenses": 
+	[
+		{
+			"type": "MIT",
+			"url": "https://github.com/vollov/nosql-rest-node-server/blob/master/LICENSE-MIT"
+		}
+	],
+
+	"main": "server.8000.js",
+	"engines": 
+	{
+		"node": ">= 0.8.0"
+	},
+
+	"scripts": 
+	{
+		"start": "node server.8000.js"
+	},
+
+	"dependencies": 
+	{
+	    "body-parser": "^1.5.2",
+	    "cookie-parser": "1.4.0",
+	    "errorhandler": "^1.1.1",
+	    "express": "^4.8.0",
+	    "express-session": "1.12.0",
+	    "method-override": "^2.1.2",
+	    "mongoose": "latest",
+	    "bunyan":"1.8.1",
+	    "multer": "^0.1.3",
+	    "serve-favicon": "^2.0.1",
+		"underscore": "latest",
+		"node-uuid": "latest",
+		"should": "latest"
+	},
+
+
+	"keywords": 
+	[
+		"node restful"
+	]
+}
